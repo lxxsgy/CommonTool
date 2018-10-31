@@ -1,0 +1,8 @@
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\bin\Debug\MSSQdemo.exe.config
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\bin\Debug\MSSQdemo.exe
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\bin\Debug\MSSQdemo.pdb
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.Form1.resources
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.Properties.Resources.resources
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.csproj.GenerateResource.Cache
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.exe
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.pdb
