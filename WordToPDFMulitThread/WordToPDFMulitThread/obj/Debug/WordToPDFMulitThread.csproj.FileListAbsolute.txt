@@ -1,0 +1,8 @@
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\WordToPDFMulitThread\WordToPDFMulitThread\bin\Debug\WordToPDFMulitThread.exe.config
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\WordToPDFMulitThread\WordToPDFMulitThread\bin\Debug\WordToPDFMulitThread.exe
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\WordToPDFMulitThread\WordToPDFMulitThread\bin\Debug\WordToPDFMulitThread.pdb
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\WordToPDFMulitThread\WordToPDFMulitThread\obj\Debug\WordToPDFMulitThread.Form1.resources
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\WordToPDFMulitThread\WordToPDFMulitThread\obj\Debug\WordToPDFMulitThread.Properties.Resources.resources
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\WordToPDFMulitThread\WordToPDFMulitThread\obj\Debug\WordToPDFMulitThread.csproj.GenerateResource.Cache
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\WordToPDFMulitThread\WordToPDFMulitThread\obj\Debug\WordToPDFMulitThread.exe
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\WordToPDFMulitThread\WordToPDFMulitThread\obj\Debug\WordToPDFMulitThread.pdb
