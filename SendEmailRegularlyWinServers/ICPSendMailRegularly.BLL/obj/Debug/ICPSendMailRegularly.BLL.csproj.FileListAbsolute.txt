@@ -1,0 +1,12 @@
+E:\项目代码\307\05_源码\05_系统工具\03_运维工具\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\bin\Debug\ICPSendMailRegularly.BLL.dll
+E:\项目代码\307\05_源码\05_系统工具\03_运维工具\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\bin\Debug\ICPSendMailRegularly.BLL.pdb
+E:\项目代码\307\05_源码\05_系统工具\03_运维工具\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\bin\Debug\log4net.dll
+E:\项目代码\307\05_源码\05_系统工具\03_运维工具\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\bin\Debug\MySql.Data.dll
+E:\项目代码\307\05_源码\05_系统工具\03_运维工具\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\obj\Debug\ICPSendMailRegularly.BLL.dll
+E:\项目代码\307\05_源码\05_系统工具\03_运维工具\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\obj\Debug\ICPSendMailRegularly.BLL.pdb
+E:\项目代码\307\05_源码\05_系统工具\03_运维工具\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\obj\Debug\ICPSendMailRegularly.BLL.csprojResolveAssemblyReference.cache
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\bin\Debug\ICPSendMailRegularly.BLL.dll
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\bin\Debug\ICPSendMailRegularly.BLL.pdb
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\bin\Debug\MySql.Data.dll
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\obj\Debug\ICPSendMailRegularly.BLL.dll
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\SendEmailRegularlyWinServers\ICPSendMailRegularly.BLL\obj\Debug\ICPSendMailRegularly.BLL.pdb
