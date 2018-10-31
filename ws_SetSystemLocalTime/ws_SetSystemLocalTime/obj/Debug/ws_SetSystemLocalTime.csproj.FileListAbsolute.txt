@@ -1,0 +1,11 @@
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\ws_SetSystemLocalTime\ws_SetSystemLocalTime\bin\Debug\ws_SetSystemLocalTime.exe.config
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\ws_SetSystemLocalTime\ws_SetSystemLocalTime\bin\Debug\ws_SetSystemLocalTime.exe
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\ws_SetSystemLocalTime\ws_SetSystemLocalTime\bin\Debug\ws_SetSystemLocalTime.pdb
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\ws_SetSystemLocalTime\ws_SetSystemLocalTime\obj\Debug\ws_SetSystemLocalTime.exe
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\ws_SetSystemLocalTime\ws_SetSystemLocalTime\obj\Debug\ws_SetSystemLocalTime.pdb
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\ws_SetSystemLocalTime\ws_SetSystemLocalTime\bin\Debug\System.Net.Http.dll
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\ws_SetSystemLocalTime\ws_SetSystemLocalTime\bin\Debug\System.Net.Http.xml
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\ws_SetSystemLocalTime\ws_SetSystemLocalTime\obj\Debug\ws_SetSystemLocalTime.ProjectInstaller.resources
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\ws_SetSystemLocalTime\ws_SetSystemLocalTime\obj\Debug\ws_SetSystemLocalTime.csproj.GenerateResource.Cache
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\ws_SetSystemLocalTime\ws_SetSystemLocalTime\bin\Debug\install.bat
+E:\项目代码\Hcfa7\单机程序\GeneralProjects\ws_SetSystemLocalTime\ws_SetSystemLocalTime\bin\Debug\UnInstall.bat
