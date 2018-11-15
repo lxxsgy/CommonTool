@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\CommonTool\opencvDemo\OpenCVOCRModule\bin\Debug\OpenCVOCRModule.dll
+C:\Users\Administrator\Desktop\CommonTool\opencvDemo\OpenCVOCRModule\bin\Debug\OpenCVOCRModule.pdb
+C:\Users\Administrator\Desktop\CommonTool\opencvDemo\OpenCVOCRModule\bin\Debug\AForge.dll
+C:\Users\Administrator\Desktop\CommonTool\opencvDemo\OpenCVOCRModule\bin\Debug\AForge.Imaging.dll
+C:\Users\Administrator\Desktop\CommonTool\opencvDemo\OpenCVOCRModule\bin\Debug\AForge.Math.dll
+C:\Users\Administrator\Desktop\CommonTool\opencvDemo\OpenCVOCRModule\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Administrator\Desktop\CommonTool\opencvDemo\OpenCVOCRModule\bin\Debug\Emgu.CV.World.dll
+C:\Users\Administrator\Desktop\CommonTool\opencvDemo\OpenCVOCRModule\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Administrator\Desktop\CommonTool\opencvDemo\OpenCVOCRModule\bin\Debug\Emgu.CV.World.xml
+C:\Users\Administrator\Desktop\CommonTool\opencvDemo\OpenCVOCRModule\obj\Debug\OpenCVOCRModule.dll
+C:\Users\Administrator\Desktop\CommonTool\opencvDemo\OpenCVOCRModule\obj\Debug\OpenCVOCRModule.pdb

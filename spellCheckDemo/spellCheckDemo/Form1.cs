@@ -79,6 +79,8 @@ namespace spellCheckDemo
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+
             SpellChecker.Check("EN_US", textBox1);
         }
     }

@@ -24,3 +24,4 @@ C:\Users\Administrator\Desktop\CommonTool\测试\Hcfa\CPI.Hcfa.DataProcess\Dicti
 C:\Users\Administrator\Desktop\CommonTool\测试\Hcfa\CPI.Hcfa.DataProcess\NHunspell.dll
 C:\Users\Administrator\Desktop\CommonTool\测试\Hcfa\CPI.Hcfa.DataProcess\Hunspellx64.dll
 C:\Users\Administrator\Desktop\CommonTool\测试\Hcfa\CPI.Hcfa.DataProcess\Hunspellx86.dll
+C:\Users\Administrator\Desktop\CommonTool\spellCheckDemo\CPI.Hcfa.SpellCheckerEngine\obj\Debug\CPI.Hcfa.SpellChecker.csprojResolveAssemblyReference.cache
