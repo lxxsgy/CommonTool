@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,400,300);
+*{
+	padding:0;
+	margin: 0;
+	border: 0;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	list-style-type: none;
+}
+/*---body---*/
+body {
+	font-family: "华文楷体",'Open Sans', sans-serif;
+}
+
+
+html,
+body {
+	height: 100%;
+}
+body
+{
+	font-size: 15px;
+	line-height: 1.50;
+	color: #333333;
+	background-color: #fff;
+	position: relative;
+}
+
+img
+{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/*----navgation----*/
+.header
+{
+   background-color: #fff;
+   padding:10px 0;
+   box-shadow: 0 0 10px #ccc;
+  -webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;	
+}
+.header .container .main-navigation .navbar-default
+{
+	background-color: transparent;
+	border: none;
+}
+
+ .main-navigation .navbar-default .navbar-nav>li>a
+{
+	color: #000;
+	padding:10px 20px;
+	font-size: 18px;
+	font-weight: 500;
+    cursor:pointer;
+
+}
+ .main-navigation .navbar-default .navbar-nav > li.active > a {
+	background-color: rgba(254, 255, 255, 0.16);
+	color: #FA8E08;
+}
+ .main-navigation .navbar-default .navbar-nav > li > a:hover,
+.main-navigation .navbar-default .navbar-nav > li.active > a:hover {
+	color: #aaa;
+}
+.container .main-navigation .navbar-default .navbar-nav > li > .login:hover {
+
+    background-color: #FA8E08;
+    color: #fff;
+
+}
+.container .main-navigation .navbar-default .navbar-nav > li > .login {
+
+    color: #FA8E08;
+    border: 1px solid #FA8E08;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 20px;
+    display: inline-block;
+    overflow: hidden;
+
+
+}
+
+.header .navbar {
+	margin-bottom: 0;
+}
+
+.fixed-header-on .header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 0 10px #ccc;
+}
+.fixed-header-on .brand {
+	font-size: 24px;
+}
+.fixed-header-on .logo {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	margin-top: 5px;
+	margin-bottom: 0;
+
+}
+.logo {
+	margin: 10px 0px 10px 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.logo{
+	float: left;
+}
+.brand {
+	font-size: 38px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding: 10px 0;
+}
+.brand a {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.brand a:hover {
+	text-decoration: none;
+}
+
+	@media (min-width:768px) {
+	.fixed-header-on .navbar-default .navbar-nav > li > a {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.fixed-header-on .navbar-default .navbar-nav > li > .login {
+	    padding: 6px 30px;
+		margin-top: 14px;
+	}
+}
+.banner {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #fff;
+
+}
+
+ 
+.banner-caption {
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	background-color: #fff;
+	text-align: center;
+    right: 20px;
+    
+
+}
+
+.QR_code img
+{
+	vertical-align: middle;
+    height: auto;
+	width: 100%;
+}
+
+.banner-images img{
+	/*width: 100%;*/
+	position: absolute;
+	/*left: 0;*/
+	right: 0;
+	bottom: -60px;
+}
+
+.QR_code img
+{
+   width: 100px;
+   height: 100px;
+}
+.QR_code p {
+    margin: 0;
+    color: #000;
+}
+.QR_code
+{
+   width: auto;
+   height: auto;
+   right: 20px;
+   bottom: 0px;
+
+}
+@media(max-width:768px){
+    .banner-caption{
+        top: auto;
+        bottom: auto;
+    }
+    .QR_code{
+        width: 40px;
+        height: 40px;
+    }
+    .QR_code p{display:none;}
+}
+
+.section {
+	background-color: #ffffff;
+	padding: 80px 0;
+} 
+
+
+
+
+
+
+
+
+
+
+
+

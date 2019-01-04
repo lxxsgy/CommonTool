@@ -4,3 +4,9 @@ C:\Users\Administrator\source\repos\WebApplication2\Test.DAL\obj\Debug\Test.DAL.
 C:\Users\Administrator\source\repos\WebApplication2\Test.DAL\obj\Debug\Test.DAL.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\WebApplication2\Test.DAL\obj\Debug\Test.DAL.dll
 C:\Users\Administrator\source\repos\WebApplication2\Test.DAL\obj\Debug\Test.DAL.pdb
+C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.DAL\bin\Debug\Test.DAL.dll
+C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.DAL\bin\Debug\Test.DAL.pdb
+C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.DAL\obj\Debug\Test.DAL.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.DAL\obj\Debug\Test.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.DAL\obj\Debug\Test.DAL.dll
+C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.DAL\obj\Debug\Test.DAL.pdb

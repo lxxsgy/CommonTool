@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="#" title="百度"  description="百度一下">
+        <siteMapNode url="#" title="优酷"  description="优酷"  />
+      
+    </siteMapNode>
+</siteMap>

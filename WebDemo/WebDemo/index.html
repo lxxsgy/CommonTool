@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    
+</head>
+<body>
+  
+        <table width="90%" align="center" cellpadding="5" cellspacing="1">
+            <tr >
+                <td colspan="3"><a href="#">会员注册</a></td>
+            </tr>
+            <tr>
+                <th width="23%">用户名</th>
+                <td width="51%" align="left">
+                    <input  type="text" name="userName" id="userName"/>
+                </td>
+                <td width="26%">
+                    <span id="nameInfo">长度大于4小于10</span>
+                </td>
+            </tr>
+
+        </table>
+
+       <!-- ajax 异步更新操作 -->
+    <!--<script>
+
+        function checkNameInfo()
+        {
+            var s = document.getElementById("userName").value;
+            var url = "EditCustom.aspx?userName=" + escape(s);
+	      var xmlhttp;
+     	if (window.XMLHttpRequest)
+	   {
+		//  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+		   xmlhttp=new XMLHttpRequest();
+	   }
+	    else
+	   {
+		// IE6, IE5 浏览器执行代码
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+     	}
+	  xmlhttp.onreadystatechange=function()
+	  {
+	      document.getElementById("nameInfo").innerHTML = "正在加载数据...";
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+		    document.getElementById("nameInfo").innerHTML = xmlhttp.responseText;
+		}
+	}
+	xmlhttp.open("GET", url, true);
+	xmlhttp.send();
+        }
+        setInterval("checkNameInfo()", 1000);
+    </script>-->
+
+</body>
+</html>
+

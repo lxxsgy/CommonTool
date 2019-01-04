@@ -1,0 +1,32 @@
+﻿body {
+}
+
+div {
+    margin: 2px;
+}
+
+.container {
+    margin-top:5px;
+}
+
+label {
+    min-width: 160px;
+    text-align: right;
+    line-height: 20px;
+    display: inline-block;
+}
+
+input[type=text],select {
+    width: 200px;
+}
+
+.commandrow {
+    text-align: center;
+}
+    .commandrow input[type=button],.commandrow input[type=submit] {
+        width:100px;
+    }
+.validate {
+color:#f00;
+}
+

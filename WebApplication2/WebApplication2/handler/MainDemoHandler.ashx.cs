@@ -33,6 +33,7 @@ namespace WebApplication2.handler
             Pager<TabPackageInfo> pager = new Pager<TabPackageInfo>();
             pager.Where = new TabPackageInfo();
             pager.Sort = sort;
+            pager.Order = order;
             if(packageid!=null)
             {
                 pager.Where.PackageId = packageid;

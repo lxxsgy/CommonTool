@@ -1,0 +1,42 @@
+﻿body {
+}
+
+.container {
+    margin-top: 5px;
+}
+
+label {
+    min-width: 160px;
+    text-align: right;
+    line-height: 20px;
+    display: inline-block;
+}
+
+
+table tr td ,table tr th{
+    border-color:#fff;
+}
+.container div {
+    margin: 2px 0px;
+}
+
+input[type=text], select {
+    width: 200px;
+}
+
+.commandrow {
+    text-align: center;
+}
+
+    .commandrow input[type=button], .commandrow input[type=submit] {
+        width: 100px;
+    }
+
+.validate {
+    color: #f00;
+    display :inline-block;
+}
+
+a i {
+    margin: 0px 2px;
+}

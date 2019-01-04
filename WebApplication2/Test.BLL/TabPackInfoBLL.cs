@@ -19,6 +19,18 @@ namespace Test.BLL
         {
 
             string whereString = "";
+            string orderString = "";
+            if(pager.Sort!=null && pager.Sort != "")
+            {
+                orderString = " Order by " + pager.Sort;
+            }
+            if(orderString!="")
+            {
+                if (pager.Order != null && pager.Order != "")
+                {
+                    orderString += " " + pager.Order;
+                }
+            }
             if(pager.Where.PackageId!=null&&pager.Where.PackageId!="")
             {
                 whereString = " Packageid= '" + pager.Where.PackageId + "' AND ";
@@ -31,21 +43,31 @@ namespace Test.BLL
             {
                 whereString += " ProjectId= '" + pager.Where.ProjectId + "' AND ";
             }
-            if(whereString!="")
+            if (whereString != "")
             {
-                whereString = " Where " + whereString.Substring(0, whereString.Length-4);
+                whereString = whereString.Substring(0, whereString.Length - 4);
             }
-            string sql = "select top "+pager.PageCount+" Pname,PackageId,ProjectId  from tabpackageInfo where mainID not in (select top "+ pager.PageSize *(pager.PageIndex-1)+ " mainID from tabpackageInfo order by mainID) order by mainID ";
-            pager.DataTableSource= SqlServerHelper.QueryTable(sql);
-           pager.RecordTotal= GetPackageInfoTotal();
+            if (whereString!="")
+            {
+                string sql = "select top " + pager.PageCount + " Pname,PackageId,ProjectId  from tabpackageInfo where "+whereString +" AND mainID not in (select top " + pager.PageCount * (pager.PageIndex - 1) + " mainID from tabpackageInfo  Where "+whereString +" "+ orderString+") "+orderString;
+                pager.DataTableSource = SqlServerHelper.QueryTable(sql);
+                pager.RecordTotal = GetPackageInfoTotal(whereString);
+            }
+            else
+            {
+                string sql = "select top " + pager.PageCount + " Pname,PackageId,ProjectId  from tabpackageInfo where mainID not in (select top " + pager.PageCount * (pager.PageIndex - 1) + " mainID from tabpackageInfo "+orderString+")  "+ orderString;
+                pager.DataTableSource = SqlServerHelper.QueryTable(sql);
+                pager.RecordTotal = GetPackageInfoTotal("");
+            }
+           
             return pager;
 
         }
 
-        private int GetPackageInfoTotal()
+        private int GetPackageInfoTotal(string whereSql)
         {
             int count = 0;
-            string sql = "select count(*) from tabpackageInfo";
+            string sql = "select count(*) from tabpackageInfo"+(whereSql==""?"":" where "+ whereSql);
             count = Convert.ToInt32( SqlServerHelper.ExecuteScalar(sql));
             return count;
         }

@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\CommonTool\ImageOPerator\ImageOPerator\bin\Debug\ImageOPerator.exe.config
+C:\Users\Administrator\Desktop\CommonTool\ImageOPerator\ImageOPerator\bin\Debug\ImageOPerator.exe
+C:\Users\Administrator\Desktop\CommonTool\ImageOPerator\ImageOPerator\bin\Debug\ImageOPerator.pdb
+C:\Users\Administrator\Desktop\CommonTool\ImageOPerator\ImageOPerator\obj\Debug\ImageOPerator.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\CommonTool\ImageOPerator\ImageOPerator\obj\Debug\ImageOPerator.Form1.resources
+C:\Users\Administrator\Desktop\CommonTool\ImageOPerator\ImageOPerator\obj\Debug\ImageOPerator.Properties.Resources.resources
+C:\Users\Administrator\Desktop\CommonTool\ImageOPerator\ImageOPerator\obj\Debug\ImageOPerator.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\CommonTool\ImageOPerator\ImageOPerator\obj\Debug\ImageOPerator.exe
+C:\Users\Administrator\Desktop\CommonTool\ImageOPerator\ImageOPerator\obj\Debug\ImageOPerator.pdb

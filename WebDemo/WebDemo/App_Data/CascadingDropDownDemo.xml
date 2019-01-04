@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<case>
+  <project value="itjs" name="IT技术">
+    <detail name="交换\路由"/>
+    <detail name="硬盘\主板"/>
+    <detail name="windows 系统优化"/>
+    <detail name="软件破解"/>
+    <detail name="Linux 论坛"/>
+  </project>
+  <project value="smsy" name="数码摄影">
+    <detail name="单反镜头"/>
+    <detail name="三脚架"/>
+    <detail name="新手上路"/>
+    <detail name="摄影技巧"/>
+  </project>
+  
+</case>

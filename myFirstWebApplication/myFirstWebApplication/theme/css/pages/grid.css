@@ -1,0 +1,40 @@
+﻿
+/*.footer {
+    background-color: white;
+    color: #000066;
+}
+
+.header {
+    background-color: #0866c6;
+    color: white;
+    height: 32px;
+    text-align: center;
+    min-width: 820px;
+}
+
+.oddrow {
+    background-color: #D8E1DE;
+    color: #3B3B3B;
+    height: 32px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.evenrow {
+    background-color: #F2F2Df;
+    color: #3B3B3B;
+    height: 32px;
+    text-align: center;
+    font-weight: normal;
+}*/
+
+.header_command {
+    margin: 5px 2px;
+    display:inline-block;
+}
+
+#UpdatePanel1 {
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+}

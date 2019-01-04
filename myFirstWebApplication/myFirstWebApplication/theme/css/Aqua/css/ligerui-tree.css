@@ -1,0 +1,96 @@
+﻿
+/* --------------
+   *   tree  *
+* ------------ */
+.l-tree {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.l-tree-loading {
+    position: absolute;
+    z-index: 91000;
+    top: 40%;
+    left: 50%;
+    overflow: hidden;
+    background: url('../images/tree/loading.gif') no-repeat 0px 0px;
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+.l-tree a i, .l-tree span i {
+    text-indent: 0em;
+    padding: 1px 5px;
+    width: 15px;
+    display: inline-block;
+    text-align :right;
+}
+
+.l-tree a, .l-tree span {
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    width: 182px;
+    display: inline-block;
+    text-indent:.1em;
+}
+
+    .l-tree a:hover, .l-tree span:hover {
+        color: white !important;
+        background:#028fc4;
+    }
+
+/*.l-tree a {
+    color: white;
+}*/
+
+.l-tree ul, .l-tree li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.l-tree li {
+    clear: both;
+    display: block;
+    cursor: pointer;
+}
+
+.l-haschildren {
+    background: #DEE3C6 !important;
+}
+
+.l-child .l-body {
+    float: right;
+    display: inline-block;
+    border-radius: 3px;
+    text-indent: 1.3em !important;
+}
+
+.l-first .l-body {
+    background: #EEEEFF;
+    border-radius: 3px;
+    width: 100%;
+}
+
+
+.l-parent .l-body {
+    background: #fff;
+    float: right;
+    border-radius: 3px;
+}
+
+.l-tree li .l-body {
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    overflow: hidden;
+   text-indent:.5em;
+   box-shadow :-1px 1px 1px rgba(0,0,0,0.3);
+}
+ 
