@@ -52,4 +52,3 @@ C:\Users\Administrator\Desktop\CommonTool\LeedtoolsModules\LeedtoolsModules\bin\
 C:\Users\Administrator\Desktop\CommonTool\LeedtoolsModules\LeedtoolsModules\bin\Debug\Leadtools.Codecs.Png.dll
 C:\Users\Administrator\Desktop\CommonTool\LeedtoolsModules\LeedtoolsModules\bin\Debug\tessdata\chi_sim.traineddata
 C:\Users\Administrator\Desktop\CommonTool\LeedtoolsModules\LeedtoolsModules\bin\Debug\tessdata\eng.traineddata
-C:\Users\Administrator\Desktop\CommonTool\LeedtoolsModules\LeedtoolsModules\obj\Debug\LeedtoolsModules.csprojResolveAssemblyReference.cache

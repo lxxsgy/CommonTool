@@ -57,6 +57,8 @@ namespace opencvDemo
                 {
                     GAY1.Draw(a4.Region, new Gray(180), 2);
                     pictureBox1.Image = GAY1.ToBitmap();
+
+
                 }
             }
             else

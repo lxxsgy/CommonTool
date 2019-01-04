@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../JqueryEasyUI/themes/default/easyui.css" />
+    <link type="text/css" rel="stylesheet" href="../JqueryEasyUI/themes/icon.css" />
+    <script type="text/javascript" src="../JqueryEasyUI/jquery.min.js"></script>
+    <script type="text/javascript" src="../JqueryEasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../JavScript/index.js"></script>
+
+<style>
+    .textbox{
+        height:20px;
+        margin:0;
+        padding:0 2px;
+        box-sizing:content-box;
+
+    }
+</style>   
+</head>
+
+<body>
+    <table id="dg"></table>
+
+    <div id="td" style="padding:5px">
+        <div>
+            <a class="easyui-linkbutton" iconCls="icon-add" href="#" plain="true">添加</a>
+            <a class="easyui-linkbutton" iconCls="icon-edit" href="#" plain="true">修改</a>
+            <a class="easyui-linkbutton" iconCls="icon-remove" href="#" plain="true">删除</a>
+        </div>
+        <div>
+            包号: <input  type="text" class="textbox" name="packageid"/>
+            Pname: <input name="pname" class="textbox" type="text"/>
+            项目ID:<input  name="projectid" class="textbox" type="text"/>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="obj.search()">查询</a>
+        </div>
+       
+
+    </div>
+
+
+    
+</body>
+</html>
