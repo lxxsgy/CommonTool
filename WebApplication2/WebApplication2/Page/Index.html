@@ -30,7 +30,9 @@
         <div>
             <a class="easyui-linkbutton" iconCls="icon-add" href="#" plain="true" onclick="obj.add()">添加</a>
             <a class="easyui-linkbutton" iconCls="icon-edit" href="#" plain="true" onclick="obj.edit()">修改</a>
-            <a class="easyui-linkbutton" iconCls="icon-remove" href="#" plain="true" onclick="Object.remove()">删除</a>
+            <a class="easyui-linkbutton" iconCls="icon-remove" href="#" plain="true" onclick="obj.remove()">删除</a>
+            <a class="easyui-linkbutton" iconCls="icon-save" href="#" plain="true" onclick="obj.save()" style="display:none" id="save">保存</a>
+            <a class="easyui-linkbutton" iconCls="icon-redo" href="#" plain="true" onclick="obj.redo()" style="display:none" id="remove">取消</a>
         </div>
         <div>
             包号: <input type="text" class="textbox" name="packageid" />

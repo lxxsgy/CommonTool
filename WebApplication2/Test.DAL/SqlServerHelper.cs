@@ -66,5 +66,28 @@ namespace Test.DAL
                 return obj;
             }
         }
+        public static int ExecuteNonQuery(string strSql)
+        {
+            int obj = 0;
+            using (var connection = new SqlConnection(SqlServerConnectionString))
+            {
+                try
+                {
+
+                    connection.Open();
+                    var command = new SqlCommand(strSql, connection);
+                    obj = command.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
+                finally
+                {
+                    connection.Close();
+                }
+                return obj;
+            }
+        }
     }
 }

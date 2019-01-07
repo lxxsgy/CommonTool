@@ -29,6 +29,7 @@ namespace opencvDemo
         {
             Mat mat = CvInvoke.Imread(@"C:\Users\Administrator\Desktop\567.png");
             Mat des = new Mat();
+            
             //  CvInvoke.CvtColor(mat,des,ColorConversion.Bgr2Gray);
             // Mat element = CvInvoke.GetStructuringElement(ElementShape.Rectangle,new Size(1,1),new Point());
             //  CvInvoke.Erode(mat,des,element,new Point(),1,BorderType.Constant,new MCvScalar(1));

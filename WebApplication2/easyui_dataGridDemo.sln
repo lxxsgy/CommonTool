@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{17A2E2B6-C415-4013-AD4D-85F66F812EC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easyui_dataGridDemo", "WebApplication2\easyui_dataGridDemo.csproj", "{17A2E2B6-C415-4013-AD4D-85F66F812EC2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.DAL", "Test.DAL\Test.DAL.csproj", "{4CD5F25E-EDD6-4678-9813-C9D605D574A8}"
 EndProject

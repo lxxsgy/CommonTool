@@ -49,13 +49,13 @@ namespace Test.BLL
             }
             if (whereString!="")
             {
-                string sql = "select top " + pager.PageCount + " Pname,PackageId,ProjectId  from tabpackageInfo where "+whereString +" AND mainID not in (select top " + pager.PageCount * (pager.PageIndex - 1) + " mainID from tabpackageInfo  Where "+whereString +" "+ orderString+") "+orderString;
+                string sql = "select top " + pager.PageCount + " mainid,Pname,PackageId,ProjectId  from tabpackageInfo where "+whereString +" AND mainID not in (select top " + pager.PageCount * (pager.PageIndex - 1) + " mainID from tabpackageInfo  Where "+whereString +" "+ orderString+") "+orderString;
                 pager.DataTableSource = SqlServerHelper.QueryTable(sql);
                 pager.RecordTotal = GetPackageInfoTotal(whereString);
             }
             else
             {
-                string sql = "select top " + pager.PageCount + " Pname,PackageId,ProjectId  from tabpackageInfo where mainID not in (select top " + pager.PageCount * (pager.PageIndex - 1) + " mainID from tabpackageInfo "+orderString+")  "+ orderString;
+                string sql = "select top " + pager.PageCount + "mainid,Pname,PackageId,ProjectId  from tabpackageInfo where mainID not in (select top " + pager.PageCount * (pager.PageIndex - 1) + " mainID from tabpackageInfo "+orderString+")  "+ orderString;
                 pager.DataTableSource = SqlServerHelper.QueryTable(sql);
                 pager.RecordTotal = GetPackageInfoTotal("");
             }
@@ -71,5 +71,54 @@ namespace Test.BLL
             count = Convert.ToInt32( SqlServerHelper.ExecuteScalar(sql));
             return count;
         }
+
+        public int InsertPackageInfo(Pager<TabPackageInfo> pager)
+        {
+            int res = 0;
+            try
+            {
+                string sql = "insert into  tabpackageInfo (Pname,PackageId,ProjectId) values('{0}','{1}','{2}')";
+                sql = string.Format(sql,pager.Where.Pname,pager.Where.PackageId,pager.Where.ProjectId);
+                res =SqlServerHelper.ExecuteNonQuery(sql);
+            }
+            catch(Exception ex)
+            {
+                res = -1;
+            }
+
+            return res;
+        }
+        public int UpdatePackageInfo(Pager<TabPackageInfo> pager)
+        {
+            int res = 0;
+            try
+            {
+                string sql = "update  tabpackageInfo set Pname='{0}',PackageId='{1}',ProjectId='{2}' where mainid='{3}'";
+                sql = string.Format(sql, pager.Where.Pname, pager.Where.PackageId, pager.Where.ProjectId, pager.Where.mainid);
+                res = SqlServerHelper.ExecuteNonQuery(sql);
+            }
+            catch (Exception ex)
+            {
+                res = -1;
+            }
+            return res;
+        }
+
+        public int deletePackageInfo(string mainid)
+        {
+            int res = 0;
+            try
+            {
+                string sql = "delete from tabpackageInfo where mainid in ({0})";
+                sql = string.Format(sql,mainid);
+                res = SqlServerHelper.ExecuteNonQuery(sql);
+            }
+            catch (Exception ex)
+            {
+                res = -1;
+            }
+            return res;
+        }
     }
+  
 }

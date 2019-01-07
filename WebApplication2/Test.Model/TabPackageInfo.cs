@@ -9,6 +9,7 @@ namespace Test.Model
     [Serializable]
     public class TabPackageInfo
     {
+        public string mainid { get; set; }
         public string Pname { get; set; }
         public string PackageId { get; set; }
         public string ProjectId { get; set; }

@@ -19,24 +19,26 @@
             }
         }
     });
-    var lastRowIndex=0;
      $('#dg').datagrid({
 
-         url: '../handler/MainDemoHandler.ashx',
+         url: '../handler/MainDemoHandler.ashx?methods=search',
          method: 'post',
          rownumbers: true,
-         checkOnSelect: false,
-         selectOnCheck: false,
          pageNumber: 1,
-         pageSize: 1,
+         pageSize: 5,
          pagination: true,
          fitColumns: true,
          remoteSort: true,
          singleSelect: true,
          loadMsg:"正在加载中。。。",
-         pageList: [1, 2, 3, 10],
+         pageList: [5,10,15,20],
          toolbar: "#td",
+         idField:'mainid',
          columns: [[
+             {
+                 field: 'mainid',
+                 checkbox: true,
+             },
              {
                  field: 'PackageId',
                  title: '包号',
@@ -46,9 +48,9 @@
                  halign: 'center',
                  order: 'asc',
                  editor: {
-                     type: 'text',
+                     type: 'numberbox',
                      options: {
-
+                         required: true,
                      }
                  }
              },
@@ -61,12 +63,11 @@
                  halign: 'center',
                  order: 'asc',
                  editor: {
-                     type: 'text',
+                     type: 'numberbox',
                      options: {
-
+                         required:true,
                      }
                  }
-                
             }, {
                 field: 'ProjectId',
                 title: '项目ID',
@@ -75,66 +76,92 @@
                  align: 'center',
                  halign: 'center',
                  order: 'asc',
-                 //checkbox:true
                  editor: {
-                     type: 'text',
+                     type: 'validatebox',
                      options: {
-
+                         required: true,
                      }
                  }
              }
              
          ]],
-         //onClickRow: function (rowIndex,rowData) {
+         
+         onAfterEdit: function (rowIndex, rowdata, changes) {
+             var insertdata = $('#dg').datagrid("getChanges", "inserted");
+             var updatedata = $('#dg').datagrid("getChanges", "updated");
+           
+             if (insertdata.length > 0) {
+                 $.ajax({
+                     url: '../handler/MainDemoHandler.ashx?methods=add',
+                     type: 'post',
+                     data: insertdata[0],
+                     success: function (data) {
+                         if (data == 1) {
+                             obj.EditRow = undefined;
+                             $("#save,#remove").hide();
+                             //alert("插入成功");
+                             $("#dg").datagrid("reload");
 
-            
-         //        $("#dg").datagrid("endEdit", lastRowIndex);
-         //        $("#dg").datagrid("beginEdit", rowIndex);
-         //      lastRowIndex = rowIndex;
-             
-         //},
-         //onClickCell: function (rowIndex, field, value) {
+                         } else {
+                             //alert("插入失败");
 
-            
-         //},
-         onAfterEdit: function (rowIndex, rowIndex, changes) {
+                             $("#dg").datagrid("beginEdit", obj.EditRow);
 
-            
+                         }
+                     }, error: function () {
+                         $("#dg").datagrid("beginEdit", obj.EditRow);
+                        
+
+                     }
+                 }
+                    
+                 );
+             }
+
+             if (updatedata.length > 0) {
+                 $.ajax({
+                     url: '../handler/MainDemoHandler.ashx?methods=update',
+                     type: 'post',
+                     data: updatedata[0],
+                     success: function (data) {
+                         if (data == 1) {
+                             obj.EditRow = undefined;
+                             $("#save,#remove").hide();
+                             alert("更新成功");
+                             $("#dg").datagrid("reload");
+
+                         } else {
+                             //alert("插入失败");
+
+                             $("#dg").datagrid("beginEdit", obj.EditRow);
+
+                         }
+                     }, error: function () {
+                         $("#dg").datagrid("beginEdit", obj.EditRow);
 
 
+                     }
+                 }
+
+                 );
+             }
 
          },
-         //onCancelEdit: function (rowIndex, rowIndex) {
-
-            
-         //},
-         //onSelect: function (rowIndex, rowdata) {
-         //   // alert(rowIndex);
-         //},
-         //onUnselect: function (rowIndex,rowdata) {
-         //    alert(rowIndex);
-         //},
-         //onCheck: function (rowIndex, rowData) {
-         //    console.log(rowData);
-         //},
-         //onSelectAll: function (rows) {
+         onCancelEdit:function() {
            
-         //}
+         },
+         onBeforeEdit: function (rowindex, rowData) {
+           
+            // console.log(rowData);
+         }
+
+        
         
         
      });
-     
-     
 
-    
-     //obj = {
-     //    search: function () {
-     //      //  console.log($("#dg").datagrid('getSelections'));
-     //        $("#dg").datagrid('checkAll');
-     //       // console.log($("#dg").datagrid('getRows'));
-     //    }
-     //};
     obj = {
+         EditRow:undefined,
         search: function () {
             $("#dg").datagrid('load', {
                 packageId: $.trim($('input[name="packageid"]').val()),
@@ -145,12 +172,82 @@
         },
         add: function () {
 
+            if (this.EditRow == undefined) {
+                $("#save,#remove").show();
+                $('#dg').datagrid('insertRow', {
+                    index: 0,   // 索引从0开始
+                    row: {
+                        //pname: '',
+                        //projectid: '',
+                        //packageid: ''
+                    }
+                });
+
+                $('#dg').datagrid('beginEdit', 0);
+                this.EditRow = 0;
+            }
+            
+             
         },
         edit: function () {
-
+            var row = $("#dg").datagrid("getSelected");
+           
+            var rowIndex = $("#dg").datagrid("getRowIndex", row);
+            if (this.EditRow == undefined && rowIndex>=0) {
+                $('#dg').datagrid("beginEdit", rowIndex);
+                this.EditRow = rowIndex;
+                $("#save,#remove").show();
+            }
+           
         },
         remove: function () {
 
+            if (this.EditRow == undefined) {
+                var array = [];
+                var checkarray = $('#dg').datagrid("getChecked");
+                console.log(checkarray);
+                $.each(checkarray, function (index, item) {
+                    if (item.mainid != null && item.mainid != undefined&& item.mainid !== '') {
+
+                        array.push(item.mainid);
+                    }
+                });
+                //console.log(array.join(','));
+                if (array.length > 0) {
+                    $.ajax({
+                        url: '../handler/MainDemoHandler.ashx?methods=remove',
+                        type: 'post',
+                        data: {
+                            mainid: array.join(','),
+                        },
+                        success: function (data) {
+                            if (data == 1) {
+                                obj.EditRow = undefined;
+                                $("#save,#remove").hide();
+                                alert("删除成功");
+                                $("#dg").datagrid("reload");
+
+                            }
+                        }, error: function () {
+                            //  $("#dg").datagrid("beginEdit", obj.EditRow);
+
+
+                        }
+                    });
+                }
+
+            }
+           
+
+        },
+        save: function () {
+            $('#dg').datagrid("acceptChanges");
+        },
+        redo: function () {
+          
+            $('#dg').datagrid("rejectChanges");
+            this.EditRow = undefined;
+            $("#save,#remove").hide();
         }
     };
 
