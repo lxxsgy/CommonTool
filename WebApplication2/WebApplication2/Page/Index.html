@@ -28,15 +28,15 @@
 
     <div id="td" style="padding:5px">
         <div>
-            <a class="easyui-linkbutton" iconCls="icon-add" href="#" plain="true">添加</a>
-            <a class="easyui-linkbutton" iconCls="icon-edit" href="#" plain="true">修改</a>
-            <a class="easyui-linkbutton" iconCls="icon-remove" href="#" plain="true">删除</a>
+            <a class="easyui-linkbutton" iconCls="icon-add" href="#" plain="true" onclick="obj.add()">添加</a>
+            <a class="easyui-linkbutton" iconCls="icon-edit" href="#" plain="true" onclick="obj.edit()">修改</a>
+            <a class="easyui-linkbutton" iconCls="icon-remove" href="#" plain="true" onclick="Object.remove()">删除</a>
         </div>
         <div>
             包号: <input type="text" class="textbox" name="packageid" />
             Pname: <input name="pname" class="textbox" type="text" />
             项目ID:<input name="projectid" class="textbox" type="text" />
-            <a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="obj.search()">查询</a>
+            <a  class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="obj.search()">查询</a>
         </div>
 
 
