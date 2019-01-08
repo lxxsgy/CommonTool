@@ -53,8 +53,8 @@ namespace WebApplication2.handler
 
 
                 pager.Order = order;
-                pager.PageIndex = page == "" ? 0 : Convert.ToInt32(page);
-                pager.PageCount = rows == "" ? 0 : Convert.ToInt32(rows);
+                pager.PageIndex = page == null ? 1 : Convert.ToInt32(page);
+                pager.PageCount = rows == null ? 20 : Convert.ToInt32(rows);
 
                 pager = tabPack.GetPackageInfo(pager);
 

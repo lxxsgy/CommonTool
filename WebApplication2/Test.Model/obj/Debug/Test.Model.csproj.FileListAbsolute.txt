@@ -4,9 +4,3 @@ C:\Users\Administrator\source\repos\WebApplication2\Test.Model\obj\Debug\Test.Mo
 C:\Users\Administrator\source\repos\WebApplication2\Test.Model\obj\Debug\Test.Model.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\WebApplication2\Test.Model\obj\Debug\Test.Model.dll
 C:\Users\Administrator\source\repos\WebApplication2\Test.Model\obj\Debug\Test.Model.pdb
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.Model\bin\Debug\Test.Model.dll
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.Model\bin\Debug\Test.Model.pdb
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.Model\obj\Debug\Test.Model.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.Model\obj\Debug\Test.Model.dll
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.Model\obj\Debug\Test.Model.pdb
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.Model\obj\Debug\Test.Model.csprojAssemblyReference.cache

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../JqueryEasyUI/themes/default/easyui.css" />
+    <link type="text/css" rel="stylesheet" href="../JqueryEasyUI/themes/icon.css" />
+    <!--<script type="text/javascript" src="../JqueryEasyUI/jquery.min.js"></script>
+    <script type="text/javascript" src="../JqueryEasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../JqueryEasyUI/jquery-easyui-datagridscrollview.js"></script>-->
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="http://www.w3cschool.cc/try/jeasyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="http://www.w3cschool.cc/try/jeasyui/datagrid-scrollview.js"></script>
+    <script type="text/javascript" src="http://www.w3cschool.cc/try/jeasyui/datagrid-detailview.js"></script>
+    <script type="text/javascript" src="../JavScript/datagridscrollview.js"></script>
+
+
+    <style>
+        .textbox {
+            height: 20px;
+            margin: 0;
+            padding: 0 2px;
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <table id="dg" style="width:500px;height:500px"
+           url="../handler/MainDemoHandler.ashx?methods=search"
+           pagination="true" sortName="mainid" sortOrder="desc"
+           title="DataGrid - Expand Row"
+           singleSelect="true" fitColumns="true">
+        <thead>
+            <tr>
+                <th field="mainid" width="80">mainid</th>
+                <th field="Pname" width="100">Pname</th>
+                <th field="PackageId" width="80">PackageId</th>
+                <th field="ProjectId" width="80">ProjectId</th>
+
+            </tr>
+        </thead>
+    </table>
+
+
+
+
+</body>
+</html>

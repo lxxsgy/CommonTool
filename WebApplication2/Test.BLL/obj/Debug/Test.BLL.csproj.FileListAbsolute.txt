@@ -9,14 +9,3 @@ C:\Users\Administrator\source\repos\WebApplication2\Test.BLL\obj\Debug\Test.BLL.
 C:\Users\Administrator\source\repos\WebApplication2\Test.BLL\obj\Debug\Test.BLL.pdb
 C:\Users\Administrator\source\repos\WebApplication2\Test.BLL\bin\Debug\Test.Model.dll
 C:\Users\Administrator\source\repos\WebApplication2\Test.BLL\bin\Debug\Test.Model.pdb
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.BLL\bin\Debug\Test.BLL.dll
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.BLL\bin\Debug\Test.BLL.pdb
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.BLL\bin\Debug\Test.DAL.dll
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.BLL\bin\Debug\Test.Model.dll
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.BLL\bin\Debug\Test.DAL.pdb
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.BLL\bin\Debug\Test.Model.pdb
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.BLL\obj\Debug\Test.BLL.csprojAssemblyReference.cache
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.BLL\obj\Debug\Test.BLL.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.BLL\obj\Debug\Test.BLL.csproj.CopyComplete
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.BLL\obj\Debug\Test.BLL.dll
-C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.BLL\obj\Debug\Test.BLL.pdb
