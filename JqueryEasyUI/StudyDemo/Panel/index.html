@@ -1,32 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	 <script type="text/javascript" src="../../jquery.min.js"></script>
-	  <script type="text/javascript" src="../..//jquery.easyui.min.js"></script>
-	   <script type="text/javascript" src="index.js"></script>
-   <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
-   <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
-  
-  <style>
-  	.red
-  	{
-  		background: red;
-  	}
-  </style>
-  
-  
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJW4jsPlNKgv6jFm3B5Edp5ywgdqLWdmc&sensor=false">
+</script>
+
+<script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </head>
+
 <body>
+<div id="googleMap" style="width:500px;height:380px;"></div>
 
-<div id="win">
-	
-
-
-</div>
-<input type="text" name="">
-
- 
 </body>
 </html>
