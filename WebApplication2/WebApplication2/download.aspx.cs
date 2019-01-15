@@ -31,6 +31,7 @@ namespace WebApplication2
                 Response.End();
             }
             myConnection.Close();
+           
 
         }
     }

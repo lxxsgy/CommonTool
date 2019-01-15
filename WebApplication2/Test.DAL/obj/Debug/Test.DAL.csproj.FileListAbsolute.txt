@@ -9,3 +9,4 @@ C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.DAL\bin\Debug\Tes
 C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.DAL\obj\Debug\Test.DAL.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.DAL\obj\Debug\Test.DAL.dll
 C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.DAL\obj\Debug\Test.DAL.pdb
+C:\Users\Administrator\Desktop\CommonTool\WebApplication2\Test.DAL\obj\Debug\Test.DAL.csprojAssemblyReference.cache

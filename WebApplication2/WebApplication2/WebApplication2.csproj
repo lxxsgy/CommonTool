@@ -74,6 +74,7 @@
   <ItemGroup>
     <Content Include="css\Index.css" />
     <Content Include="download.aspx" />
+    <Content Include="EncodeAndDecode.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Index.aspx" />
     <Content Include="JavScript\datagridscrollview.js" />
@@ -712,6 +713,13 @@
     </Compile>
     <Compile Include="download.aspx.designer.cs">
       <DependentUpon>download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EncodeAndDecode.aspx.cs">
+      <DependentUpon>EncodeAndDecode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EncodeAndDecode.aspx.designer.cs">
+      <DependentUpon>EncodeAndDecode.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

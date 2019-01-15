@@ -17,22 +17,22 @@ namespace WebApplication2
             //构建数据库连接，SQL语句，创建参数
 
 
-            string ss = AppDomain.CurrentDomain.BaseDirectory + "App_Data\\file.mdb";
-            string strCnString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + ss + ";Persist Security Info=False;";
-            System.Data.OleDb.OleDbConnection myConnection = new System.Data.OleDb.OleDbConnection(strCnString);
-            String strSql = "SELECT count(*) FROM tab";
-            // myConnection.Open();
-            // System.Data.OleDb.OleDbCommand command = new System.Data.OleDb.OleDbCommand(strSql, myConnection);
-            //打开连接，执行查询
-            DataSet ds = new DataSet();
-            System.Data.OleDb.OleDbDataAdapter da = new OleDbDataAdapter();
-            myConnection.Open();
-            da.SelectCommand = new OleDbCommand(strSql, myConnection);
-            da.Fill(ds, "tab");
-            // System.Data.OleDb.OleDbDataReader dr = command.ExecuteReader();
-            GridView1.DataSource = ds.Tables[0];
-            GridView1.DataBind();
-            myConnection.Close();
+            //string ss = AppDomain.CurrentDomain.BaseDirectory + "App_Data\\file.mdb";
+            //string strCnString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + ss + ";Persist Security Info=False;";
+            //System.Data.OleDb.OleDbConnection myConnection = new System.Data.OleDb.OleDbConnection(strCnString);
+            //String strSql = "SELECT count(*) FROM tab";
+            //// myConnection.Open();
+            //// System.Data.OleDb.OleDbCommand command = new System.Data.OleDb.OleDbCommand(strSql, myConnection);
+            ////打开连接，执行查询
+            //DataSet ds = new DataSet();
+            //System.Data.OleDb.OleDbDataAdapter da = new OleDbDataAdapter();
+            //myConnection.Open();
+            //da.SelectCommand = new OleDbCommand(strSql, myConnection);
+            //da.Fill(ds, "tab");
+            //// System.Data.OleDb.OleDbDataReader dr = command.ExecuteReader();
+            //GridView1.DataSource = ds.Tables[0];
+            //GridView1.DataBind();
+            //myConnection.Close();
 
         }
 
