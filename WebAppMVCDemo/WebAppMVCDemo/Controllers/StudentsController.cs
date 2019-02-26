@@ -19,6 +19,7 @@ namespace WebAppMVCDemo.Controllers
         {
 
             return View(db.Students.ToList());
+         
         }
 
         // GET: Students/Details/5
