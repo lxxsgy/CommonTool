@@ -30,4 +30,6 @@ C:\Users\Administrator\Desktop\CommonTool\myFirstWebApplication\myFirstWebApplic
 C:\Users\Administrator\Desktop\CommonTool\myFirstWebApplication\myFirstWebApplication\bin\System.Web.Mvc.xml
 C:\Users\Administrator\Desktop\CommonTool\myFirstWebApplication\myFirstWebApplication\obj\Debug\myFirstWebApplication.dll
 C:\Users\Administrator\Desktop\CommonTool\myFirstWebApplication\myFirstWebApplication\obj\Debug\myFirstWebApplication.pdb
-C:\Users\Administrator\Desktop\CommonTool\myFirstWebApplication\myFirstWebApplication\obj\Debug\myFirstWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\CommonTool\myFirstWebApplication\myFirstWebApplication\obj\Debug\myFirstWebApplication.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\CommonTool\myFirstWebApplication\myFirstWebApplication\obj\Debug\myFirstWebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CommonTool\myFirstWebApplication\myFirstWebApplication\obj\Debug\myFirstWebApplication.csproj.CopyComplete

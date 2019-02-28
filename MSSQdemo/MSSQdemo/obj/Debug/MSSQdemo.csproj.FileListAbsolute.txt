@@ -6,3 +6,13 @@ E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\obj\Debug\M
 E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.csproj.GenerateResource.Cache
 E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.exe
 E:\项目代码\Hcfa7\单机程序\GeneralProjects\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.pdb
+C:\Users\Administrator\Desktop\CommonTool\MSSQdemo\MSSQdemo\bin\Debug\MSSQdemo.exe.config
+C:\Users\Administrator\Desktop\CommonTool\MSSQdemo\MSSQdemo\bin\Debug\MSSQdemo.exe
+C:\Users\Administrator\Desktop\CommonTool\MSSQdemo\MSSQdemo\bin\Debug\MSSQdemo.pdb
+C:\Users\Administrator\Desktop\CommonTool\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\CommonTool\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.Form1.resources
+C:\Users\Administrator\Desktop\CommonTool\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\CommonTool\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\CommonTool\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CommonTool\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.exe
+C:\Users\Administrator\Desktop\CommonTool\MSSQdemo\MSSQdemo\obj\Debug\MSSQdemo.pdb

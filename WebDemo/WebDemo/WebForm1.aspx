@@ -17,7 +17,8 @@
     <asp:Label ID="lblIP" runat="server" Text="Label"></asp:Label>
     URL：   
     <asp:Label ID="lblURL" runat="server" Text="Label"></asp:Label>
- 
+
+    
    <%-- <form id="form1" runat="server">
    
         <div>

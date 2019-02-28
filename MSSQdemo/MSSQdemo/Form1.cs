@@ -18,11 +18,30 @@ namespace MSSQdemo
         [Serializable]
         public class DataModel
         {
-            public string Name { get; set; }
-            public string Opterate { get; set; }
+            public string ProjectId { get; set; }
+            public List<ProjectData> ProjectDatas { get; set; }
+
         }
-       
-       
+        [Serializable]
+        public class ProjectData
+        {
+            private DataTable projectData = null;
+            public string ProjectTabID { get; set; }
+            public DataTable ProjectDataTable
+            {
+                get
+                {
+                    return this.projectData;
+                }
+                set
+                {
+                    this.projectData = value;
+                }
+            }
+
+        }
+
+
         public Form1()
         {
             InitializeComponent();
@@ -41,9 +60,43 @@ namespace MSSQdemo
             try
             {
               
-              List<DataModel> dataEntity = new List<DataModel>();
-                dataEntity.Add(new DataModel { Name="sgy",Opterate="insert"});
-                dataEntity.Add(new DataModel { Name = "lxx", Opterate = "delete" });
+           //   List<DataModel> dataEntity = new List<DataModel>();
+                DataModel dataEntity = new DataModel();
+                dataEntity.ProjectId = "17DB01";
+                dataEntity.ProjectDatas = new List<ProjectData>();
+                DataTable dt1 = new DataTable();
+                dt1.Columns.Add("agent");
+                dt1.Columns.Add("zip");
+                dt1.Columns.Add("city");
+                dt1.TableName = "17DB0101";
+
+                for (int i = 0; i < 5; i++)
+                {
+                    DataRow newdr = dt1.NewRow();
+
+                    newdr["agent"] = "a" + i;
+                    newdr["zip"] = "b" + i;
+                    newdr["city"] = "c" + i;
+                    dt1.Rows.Add(newdr);
+
+                }
+                DataTable dt2 = new DataTable();
+                dt2.Columns.Add("name");
+                dt2.Columns.Add("age");
+                dt2.Columns.Add("address");
+                dt2.TableName = "17DB0102";
+                for (int i = 0; i < 5; i++)
+                {
+                    DataRow newdr = dt2.NewRow();
+
+                    newdr["name"] = "e" + i;
+                    newdr["age"] = "f" + i;
+                    newdr["address"] = "g" + i;
+                    dt2.Rows.Add(newdr);
+                }
+
+                dataEntity.ProjectDatas.Add(new ProjectData { ProjectTabID = "17DB0101", ProjectDataTable = dt1 });
+                dataEntity.ProjectDatas.Add(new ProjectData { ProjectTabID = "17DB0102", ProjectDataTable = dt2 });
                 byte[] data = SerializeObject(dataEntity);
                 var message = new System.Messaging.Message(data, new BinaryMessageFormatter());
                 queue.Send(message);

@@ -10,6 +10,7 @@ namespace WebAppMVCDemo.Controllers
     {
         public ActionResult Index()
         {
+            ModelState.AddModelError("","this is all wrong");
             return View();
         }
 

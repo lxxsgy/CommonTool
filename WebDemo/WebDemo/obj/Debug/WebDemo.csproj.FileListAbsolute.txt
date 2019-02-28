@@ -23,4 +23,6 @@ C:\Users\Administrator\Desktop\CommonTool\WebDemo\WebDemo\bin\AjaxControlToolkit
 C:\Users\Administrator\Desktop\CommonTool\WebDemo\WebDemo\bin\AjaxControlToolkit.xml
 C:\Users\Administrator\Desktop\CommonTool\WebDemo\WebDemo\bin\Images\FilledStar.png
 C:\Users\Administrator\Desktop\CommonTool\WebDemo\WebDemo\bin\App_Data\CascadingDropDownDemo.xml
-C:\Users\Administrator\Desktop\CommonTool\WebDemo\WebDemo\obj\Debug\WebDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\CommonTool\WebDemo\WebDemo\obj\Debug\WebDemo.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\CommonTool\WebDemo\WebDemo\obj\Debug\WebDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CommonTool\WebDemo\WebDemo\obj\Debug\WebDemo.csproj.CopyComplete
