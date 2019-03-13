@@ -57,3 +57,6 @@ C:\Users\Administrator\Desktop\CommonTool\WebAppMVCDemo\WebAppMVCDemo\bin\System
 C:\Users\Administrator\Desktop\CommonTool\WebAppMVCDemo\WebAppMVCDemo\bin\System.Web.Http.xml
 C:\Users\Administrator\Desktop\CommonTool\WebAppMVCDemo\WebAppMVCDemo\bin\System.Web.Http.WebHost.xml
 C:\Users\Administrator\Desktop\CommonTool\WebAppMVCDemo\WebAppMVCDemo\obj\Debug\WebAppMVCDemo.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\CommonTool\WebAppMVCDemo\WebAppMVCDemo\obj\Debug\WebAppMVCDemo.Migrations.Add_Annotation_Name_Major.resources
+C:\Users\Administrator\Desktop\CommonTool\WebAppMVCDemo\WebAppMVCDemo\obj\Debug\WebAppMVCDemo.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\CommonTool\WebAppMVCDemo\WebAppMVCDemo\obj\Debug\WebAppMVCDemo.Migrations.Add_Annotation_Name_Major1.resources

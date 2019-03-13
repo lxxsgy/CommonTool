@@ -10,16 +10,15 @@ using WebAppMVCDemo.Models;
 
 namespace WebAppMVCDemo.Controllers
 {
+    [Authorize]
     public class StudentsController : Controller
     {
-        private StudentDBContext db = new StudentDBContext();
+        private StudentContext db = new StudentContext();
 
         // GET: Students
         public ActionResult Index()
         {
-
             return View(db.Students.ToList());
-         
         }
 
         // GET: Students/Details/5
@@ -45,7 +44,7 @@ namespace WebAppMVCDemo.Controllers
 
         // POST: Students/Create
         // 为了防止“过多发布”攻击，请启用要绑定到的特定属性，有关 
-        // 详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=317598。
+        // 详细信息，请参阅 https://go.microsoft.com/fwlink/?LinkId=317598。
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID,Name,Gender,Major,EntranceDate")] Student student)
@@ -77,7 +76,7 @@ namespace WebAppMVCDemo.Controllers
 
         // POST: Students/Edit/5
         // 为了防止“过多发布”攻击，请启用要绑定到的特定属性，有关 
-        // 详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=317598。
+        // 详细信息，请参阅 https://go.microsoft.com/fwlink/?LinkId=317598。
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "ID,Name,Gender,Major,EntranceDate")] Student student)

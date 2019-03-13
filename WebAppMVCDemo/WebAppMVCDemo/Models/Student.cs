@@ -11,9 +11,13 @@ namespace WebAppMVCDemo.Models
         
         public int ID { get; set; }
         [Required]
+        [StringLength(100)]
         public string Name { get; set; }
         public int Gender { get; set; }
+        [Required]
+        [StringLength(300)]
         public string Major { get; set; }
+        [Required]
         public DateTime EntranceDate { get; set; }
 
     }
